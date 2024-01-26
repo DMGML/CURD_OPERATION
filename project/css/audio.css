@@ -1,0 +1,35 @@
+.video{
+	width:90%;
+	margin:50px auto 50px;
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(400px, 4fr));
+	grid-gap:20px;
+}
+body{
+	background-color:#f4b41a;
+}	
+
+div>video{
+	height:400px;
+	width:400px;
+}
+
+h1{
+	text-align:center;
+	height:50px;
+	color:#143d59;
+	font-size:50px;
+	padding:10px;
+}
+hr{
+	height:4px;
+	width:98%;
+	position:absolute;
+	left:15px;
+	background-color:#143d59;
+	margin-top:-5px;
+}
+video:hover{
+	border:5px #143d59  solid;
+	border-radius:4px;
+}

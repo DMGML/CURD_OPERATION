@@ -1,0 +1,45 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#143d59;
+}
+
+
+div{
+	height:230px;
+	width:350px;
+	position:absolute;
+	right:40%;
+	top:25%;
+	border-radius:5px;
+	
+}
+caption{
+	font-size:40px;;
+}
+td{
+	padding:2px;
+}
+table{
+	color:#143d59;
+}
+input{
+	color:#143d59;
+	border-radius:3px;
+	font-weight:bold;
+}
+label{
+	font-weight:bold;
+}
+.input{
+	width:70px;
+	height:22px;
+	background:#f4b41a;
+	cursor:pointer;
+	
+}
+.text{
+	border-style:none;
+}

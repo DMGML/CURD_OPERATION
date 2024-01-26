@@ -1,0 +1,18 @@
+
+<style>
+	.box{
+	visibility:hidden;
+	}
+	.box::after{
+		content:url(vadivelu.jpg);
+		visibility:visible;
+	}
+	.box:checked::after{
+		content:url(off.jpg);
+		}
+</style>
+
+
+
+
+<input type="checkbox" class="box">
